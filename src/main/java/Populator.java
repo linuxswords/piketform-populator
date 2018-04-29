@@ -28,8 +28,8 @@ public class Populator {
     private static final String NAME = "Pia Stocker";
 
 
-    private static final String SRC = "/home/martin/Downloads/Pikettentschadigung_2017-t2.pdf";
-    private static final String DEST = "/home/martin/Downloads/pikett";
+    private static final String SRC = "/home/martin/src/piketform-populator/pikett-vorlage.pdf";
+    private static final String DEST = "/home/martin/src/piketform-populator/pikett/";
 
 
     public static void main(String args[]) throws IOException {
