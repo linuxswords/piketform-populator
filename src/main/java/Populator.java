@@ -52,15 +52,16 @@ public class Populator {
 
         Map<String, PdfFormField> fields = form.getFormFields();
 //        for (String s : fields.keySet()) {
-//            System.out.println("s = " + s);
+//            System.out.println("key = " + s);
+//            System.out.println("alt.name = " + fields.get(s).getFieldName());
 //        }
-        fields.get("Adresse Absender").setValue(SENDER);
-        fields.get("Adresse Empf#C3#A4nger").setValue(target_address);
-        fields.get("Ort/Datum").setValue(CITY);
-        fields.get("Konto").setValue(IBAN);
-        fields.get("Wochenbettbetreuung").setValue(AMOUNT);
-        fields.get("Total").setValue(AMOUNT);
-        fields.get("Name").setValue(NAME);
+        fields.get("Textfeld 1").setValue(SENDER);
+        fields.get("Textfeld 8").setValue(target_address);
+        fields.get("Textfeld 3").setValue(CITY);
+        fields.get("Textfeld 12").setValue(IBAN);
+        fields.get("Textfeld 6").setValue(AMOUNT);
+        fields.get("Textfeld 7").setValue(AMOUNT);
+        fields.get("Textfeld 2").setValue(NAME);
         pdfDoc.close();
         System.out.println(String.format("writing piket form for %s to %s", name, target_file_name));
     }

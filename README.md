@@ -1,4 +1,4 @@
-private project for duplicating a pdf form and prefilling data
+# midwife pdf form populator
 
-- java
-- itext
+Helper for duplicating a pdf form and prefilling data to the midwie
+
