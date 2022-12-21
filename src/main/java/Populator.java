@@ -55,8 +55,8 @@ public class Populator {
 //            System.out.println("key = " + s);
 //            System.out.println("alt.name = " + fields.get(s).getFieldName());
 //        }
-        fields.get("Textfeld 1").setValue(SENDER);
-        fields.get("Textfeld 8").setValue(target_address);
+        fields.get("Textfeld 1").setValue(target_address);
+        fields.get("Textfeld 8").setValue(SENDER);
         fields.get("Textfeld 3").setValue(CITY);
         fields.get("Textfeld 12").setValue(IBAN);
         fields.get("Textfeld 6").setValue(AMOUNT);
