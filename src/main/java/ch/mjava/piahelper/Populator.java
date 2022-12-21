@@ -1,3 +1,5 @@
+package ch.mjava.piahelper;
+
 import com.itextpdf.forms.PdfAcroForm;
 import com.itextpdf.forms.fields.PdfFormField;
 import com.itextpdf.kernel.pdf.PdfDocument;
@@ -22,14 +24,14 @@ import java.util.Map;
 public class Populator {
 
     private static final String SENDER = "Pia Stocker\nBergstrasse 15\n8800 Thalwil";
-    private static final String IBAN = "CH48 0070 0111 5001 3210 1";
+    private static final String IBAN = "CH70 3070 0111 5001 3210 1";
     private static final String AMOUNT = "115.--";
     private static final String CITY = "Thalwil, ";
     private static final String NAME = "Pia Stocker";
 
 
-    private static final String SRC = "/home/martin/src/piketform-populator/pikett-vorlage.pdf";
-    private static final String DEST = "/home/martin/src/piketform-populator/pikett/";
+    private static final String SRC = "./pikett-vorlage.pdf";
+    private static final String DEST = "./pikett/";
 
 
     public static void main(String args[]) throws IOException {
